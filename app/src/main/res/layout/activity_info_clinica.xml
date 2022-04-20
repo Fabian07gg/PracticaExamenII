@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/InicioInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="410dp"
+        android:layout_height="82dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InicioInfo"
+        app:layout_constraintVertical_bias="0.075">
+
+        <Button
+            android:id="@+id/btn_inicio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:text="Inicio" />
+
+        <Button
+            android:id="@+id/btn_contacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:text="Contacto" />
+
+        <Button
+            android:id="@+id/btn_servicios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:text="Servicios" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/info_inicio"
+        android:layout_width="355dp"
+        android:layout_height="78dp"
+        android:text="Gestione sus citas en línea
+\n
+Para su mayor comodidad ponemos a su disposición las siguientes plataformas en línea."
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/info_inicio2"
+        android:layout_width="349dp"
+        android:layout_height="188dp"
+        android:text="Directorio médico
+        \n
+En su afán de ofrecer las mejores prestaciones a los clientes mediante un equipo médico y tecnología de la más alta calidad, el Hospital Clínica Bíblica cuenta en el área de Servicios Especializados o Servicios de Consulta Médica con más de 80 especialidades y sus respectivas sub-especialidades, con lo que se erige como una institución líder."
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_inicio"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <TextView
+        android:id="@+id/info_inicio3"
+        android:layout_width="364dp"
+        android:layout_height="206dp"
+        android:layout_marginBottom="16dp"
+        android:text="Maternidad
+\n
+¡El milagro de la vida conforta nuestra alma y corazón!
+\n
+Gracias por compartir esos momentos memorables.
+\n
+La espera, el nacimiento y el crecimiento de una nueva vida es motivo de alegría, por eso nuestro mayor interés es proporcionar una atención íntegra, eficaz y segura para la familia gestante, en donde la alta tecnología y un personal calificado son la mezcla perfecta para que la atención del embarazo, parto y post-parto sea un proceso exitoso."
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_inicio2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
